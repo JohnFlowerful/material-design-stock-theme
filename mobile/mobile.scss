@@ -5,10 +5,10 @@
 //create conversation cards
 .topic-body {
   @include boxShadow;
-  background-color: lighten($secondary, 10%);
+  background-color: var(--material-lighter-secondary);
   margin-top: 10px;
   padding: 20px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 //more space for avatars
